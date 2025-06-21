@@ -1,0 +1,11 @@
+__pycache__/
+*.pth
+*.mp4
+*.csv
+*.json
+*.log
+*.jpg
+*.jpeg
+*.png
+*.avi
+retrain/retrained_models/

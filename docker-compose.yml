@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  eatlab_app:
+    build: .
+    container_name: eatlab_app
+    volumes:
+      - .:/app
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    environment:
+      - DISPLAY=$DISPLAY
